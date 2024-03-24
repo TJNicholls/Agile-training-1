@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F5D7; /* Light beige background */
+    color: #333; /* Dark text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, #FFD700, #FFA500); /* Yellow to orange gradient */
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#agile {
+    background-image: linear-gradient(to bottom right, #FFD700, #FFA500); /* Yellow to orange gradient */
+}
+
+#scrum {
+    background-image: linear-gradient(to bottom right, #FF6347, #FFA500); /* Tomato to orange gradient */
+}
+
+#scrum-master {
+    background-image: linear-gradient(to bottom right, #9370DB, #FFA500); /* Medium purple to orange gradient */
+}
+
+h1 {
+    color: #006400; /* Dark green heading */
+    font-size: 3em;
+}
+
+h2 {
+    color: #006400; /* Dark green heading */
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.6;
+    color: #333; /* Dark text */
+}
+
+button {
+    background-color: #FFD700; /* Yellow button */
+    color: #006400; /* Dark green text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+button:hover {
+    background-color: #FFC300; /* Lighter yellow on hover */
+    color: #32CD32; /* Lime green text */
+}
+
+/* Animate quiz questions */
+.question {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animate quiz buttons */
+#quiz-container button {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Animate header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: slideInDown 1s ease-out;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animate sections */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, #FFD700, #FFA500); /* Yellow to orange gradient */
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animate buttons */
+button {
+    background-color: #FFD700; /* Yellow button */
+    color:
+}
